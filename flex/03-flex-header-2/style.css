@@ -49,17 +49,22 @@ ul {
 
 .header {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  justify-content: space-between;
   padding: 8px;
 }
 
 .left {
   display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
 
-.notifications.right {
+.links{
   display: flex;
-  margin-left: auto;
+  gap: 16px;
 }
